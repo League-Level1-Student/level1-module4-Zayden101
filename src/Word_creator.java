@@ -5,12 +5,7 @@ import javax.swing.JOptionPane;
 public class Word_creator {
 	public static void main(String[] args) {
 		
-		 String html = "<html><body width='%1s'><h1>Label Width</h1>"
-	                + "<p>Many Swing components support HTML 3.2 &amp; "
-	                + "(simple) CSS.  By setting a body width we can cause "
-	                + "the component to find the natural height needed to "
-	                + "display the component.<br><br>"
-	                + "<p>The body width in this text is set to %1s pixels.";
+		
 		
 		String one = "a";
 		String two = "a";
@@ -856,7 +851,7 @@ public class Word_creator {
 		String a = JOptionPane.showInputDialog("What dose this word mean?");
 		
 		
-		JOptionPane.showMessageDialog(null, one + two + three + four + five + six + seven + eight + nine + ten + String.format(html, 10, 10) + "             Definition: " + a);
+		JOptionPane.showMessageDialog(null, one + two + three + four + five + six + seven + eight + nine + ten +"             Definition: " + a);
 		
 		
 		
