@@ -65,18 +65,18 @@ public class FortuneTeller extends JPanel implements Runnable, MouseListener {
 	// 3. Print out this variable
 		System.out.println(rand);
 	// 4. Get the user to enter a question for the 8 ball
-		JOptionPane.showInputDialog("Ask a yer or no question");
+		JOptionPane.showInputDialog("Ask a yes or no question");
 	// 5. If the random number is 0
 		if(rand== 0) {
 		JOptionPane.showMessageDialog(null, "Yes");
 		}else if(rand== 0) {
 			JOptionPane.showMessageDialog(null, "No");
 			}else if(rand== 1) {
-			JOptionPane.showMessageDialog(null, "May you should ask google?");
+			JOptionPane.showMessageDialog(null, "Not Sure");
 			}else if(rand== 2) {
 			JOptionPane.showMessageDialog(null, "Yes");
 			}else if(rand == 3) {
-				JOptionPane.showMessageDialog(null, "Definently not!");
+				JOptionPane.showMessageDialog(null, "Definently not");
 			}
    	 }
 
